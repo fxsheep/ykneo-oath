@@ -65,7 +65,7 @@ public class YkneoOath extends Applet {
 	private static final byte PROP_REMAINING_DATA_LEN = 3;
 	private static final byte PROP_BUF_SIZE = PROP_REMAINING_DATA_LEN + 2;
 
-	private static final short BUFSIZE = 2048;
+	private static final short BUFSIZE = 512;
 	private static final short TMP_BUFSIZE = 32;
 
 	private RandomData rng;
